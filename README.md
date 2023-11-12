@@ -1,1 +1,1 @@
-# smalltalk-fe
+# small-talk-fe
