@@ -1,0 +1,50 @@
+<div class="register-page">
+    <!-- LOGIN LEFT -->
+    <app-auth-panel />
+    <!-- LOGIN RIGHT -->
+    <div class="register-form">
+        <div class="auth">
+            <div>
+                <h2>Hi, How Are You !</h2>
+                <h4>Sign up to continue with us</h4>
+                <form>
+                    <div>
+                        <mat-form-field appearance="outline">
+                            <mat-label>Email</mat-label>
+                            <input matInput required>
+                            <mat-hint align="end">examle@gmail.com</mat-hint>
+                        </mat-form-field>
+                    </div>
+                    <div>
+                        <mat-form-field appearance="outline">
+                            <mat-label>Password</mat-label>
+                            <input matInput type="password" required>
+                        </mat-form-field>
+                    </div>
+                    <div>
+                        <mat-form-field appearance="outline">
+                            <mat-label>Confirmed Password</mat-label>
+                            <input matInput type="password" required>
+                        </mat-form-field>
+                    </div>
+                    <div>
+                        <button class="btn-signup" mat-raised-button>SIGN UP</button>
+                    </div>
+                </form>
+                <div class="forgot-password">
+                    <a mat-list-item routerLink="/auth/forgot-password"><span class="sidenav-section">Forgot password</span></a>
+                </div>
+                <div class="login">
+                    <a mat-list-item routerLink="/auth/login"><span class="sidenav-section">Login</span></a>
+                </div>
+                <div class="divider"><mat-divider/></div>
+                <div class="social">
+                    <button class="btn-social" color="primary" mat-mini-fab matTooltip="Login with Facebook"><mat-icon>facebook</mat-icon></button>
+                    <button class="btn-social" color="primary" mat-mini-fab matTooltip="Login with Gmail"><mat-icon>alternate_email</mat-icon></button>
+                    <button class="btn-social" color="primary" mat-mini-fab matTooltip="Login with Github"><mat-icon>device_hub</mat-icon></button>
+                </div>
+                <span class="alert">User name or password is incorrect</span>
+            </div>
+        </div>
+    </div>
+</div>

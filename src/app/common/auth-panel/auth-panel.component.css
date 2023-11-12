@@ -1,0 +1,23 @@
+.auth-slogan {
+    width: 34%;
+    height: 96%;
+    float: left;
+}
+
+.auth-slogan h1, .auth-slogan h2{
+    font-family: 'Edu TAS', cursive;
+    color: white;
+}
+
+.auth-slogan .auth-container{
+    display: flex;
+    flex-flow: row;
+}
+
+.auth-slogan .auth-item {
+    display: flex;
+}
+
+.auth-slogan .auth-icon img{
+    max-width: 150%;
+}

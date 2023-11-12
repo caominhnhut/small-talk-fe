@@ -1,0 +1,60 @@
+<div class="chat">
+    <div class="left-side-bar">
+        <div class="left-side-bar-top">
+            <mat-list>
+                <mat-list-item>
+                    <button mat-icon-button>
+                        <mat-icon aria-hidden="false" fontIcon="account_box"></mat-icon>
+                    </button>
+                </mat-list-item>
+                <mat-list-item>
+                    <button mat-icon-button>
+                        <mat-icon aria-hidden="false" fontIcon="message"></mat-icon>
+                    </button>
+                </mat-list-item>
+                <mat-list-item>
+                    <button mat-icon-button>
+                        <mat-icon aria-hidden="false" fontIcon="phone"></mat-icon>
+                    </button>
+                </mat-list-item>
+                <mat-list-item>
+                    <button mat-icon-button>
+                        <mat-icon aria-hidden="false" fontIcon="settings"></mat-icon>
+                    </button>
+                </mat-list-item>
+                <mat-list-item>
+                    <button mat-icon-button>
+                        <mat-icon aria-hidden="false" fontIcon="person"></mat-icon>
+                    </button>
+                </mat-list-item>
+            </mat-list>
+        </div>
+        <mat-divider/>
+        <div class="left-side-bar-bottom">
+            <div class="avatar">
+                <img src="../../../assets/tony.jpg" [matMenuTriggerFor]="profileMenu">
+            </div>
+            <mat-menu #profileMenu="matMenu">
+                <a mat-menu-item [routerLink]="['profile']">
+                    Profile
+                </a>
+                <a mat-menu-item [routerLink]="['settings']">
+                    Settings
+                </a>
+                <a mat-menu-item [routerLink]="['change-password']">
+                    Change Password
+                </a>
+                <mat-divider/>
+                <a mat-menu-item [routerLink]="['logout']">
+                    Logout
+                </a>
+            </mat-menu>
+        </div>
+    </div>
+    <div class="middle-side-bar">
+        <app-contact/>
+    </div>
+    <div class="right-side-bar">
+        <router-outlet></router-outlet>
+    </div>
+</div>

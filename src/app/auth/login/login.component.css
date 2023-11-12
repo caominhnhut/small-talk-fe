@@ -1,0 +1,81 @@
+.login-page {
+    background-color: #4DAC6D;
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.login-form {
+    background-color: white;
+    width: 60%;
+    height: 96%;
+    border-radius: 10px;
+    margin-left: 36%;
+    padding-top: 1%;
+}
+
+.login-form .auth {
+    width: 50%;
+    height: 96%;
+    margin: auto;
+    text-align: center;
+}
+
+.login-form .auth h2{
+    font-family: 'Edu TAS', cursive;
+}
+
+.login-form .auth h4{
+    color: #777C81;
+    font-family: 'Edu TAS', cursive;
+    margin-bottom: 7%;
+}
+
+.login-form mat-form-field{
+    width: 90%;
+    margin-bottom: 7%;
+}
+
+.login-form .btn-login{
+    width: 90%;
+    color: white;
+    background-color: #31af36;
+    height: 45px;
+    margin-bottom: 20px;
+}
+
+.login-form .forgot-password {
+    text-align: left;
+    padding-left: 20px;
+    float: left;;
+}
+
+.login-form .create-account {
+    text-align: right;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.login-form .forgot-password a, .login-form .create-account a{
+    color: #bbbbbb;
+    text-decoration: none;
+}
+
+.login-form .divider{
+    width: 70%;
+    margin: auto;
+}
+
+.login-form .social{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.login-form .btn-social{
+    margin-right: 10px;
+}
+
+.login-form .alert{
+    color: #FF6600;
+}

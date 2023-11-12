@@ -1,0 +1,81 @@
+.register-page {
+    background-color: #4DAC6D;
+    width: 100%;
+    height: 100%;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+
+.register-form {
+    background-color: white;
+    width: 60%;
+    height: 96%;
+    border-radius: 10px;
+    margin-left: 36%;
+    padding-top: 1%;
+}
+
+.register-form .auth {
+    width: 50%;
+    height: 96%;
+    margin: auto;
+    text-align: center;
+}
+
+.register-form .auth h2{
+    font-family: 'Edu TAS', cursive;
+}
+
+.register-form .auth h4{
+    color: #777C81;
+    font-family: 'Edu TAS', cursive;
+    margin-bottom: 7%;
+}
+
+.register-form mat-form-field{
+    width: 90%;
+    margin-bottom: 7%;
+}
+
+.register-form .btn-signup{
+    width: 90%;
+    color: white;
+    background-color: #31af36;
+    height: 45px;
+    margin-bottom: 20px;
+}
+
+.register-form .forgot-password {
+    text-align: left;
+    padding-left: 20px;
+    float: left;;
+}
+
+.register-form .login {
+    text-align: right;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+
+.register-form .forgot-password a, .register-form .login a{
+    color: #bbbbbb;
+    text-decoration: none;
+}
+
+.register-form .divider{
+    width: 70%;
+    margin: auto;
+}
+
+.register-form .social{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.register-form .btn-social{
+    margin-right: 10px;
+}
+
+.register-form .alert{
+    color: #FF6600;
+}
