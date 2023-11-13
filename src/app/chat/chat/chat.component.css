@@ -1,6 +1,6 @@
 .chat{
     width: 100%;
-    height: 100%;
+    height: 97%;
 }
 
 .chat .left-side-bar{
@@ -29,9 +29,8 @@
 
 .left-side-bar-bottom .avatar {
     position: absolute;
-    bottom: 20px;
+    bottom: 30px;
     left: 20px;
-    margin: auto;
 }
 
 .left-side-bar-bottom .avatar img {
@@ -48,8 +47,8 @@
 }
 
 .chat .right-side-bar{
-    background-color: red;
+    background-color: #BDDDC9;
     width: calc(100% - 380px);
+    margin-left: 380px;
     height: 100%;
-    display: flex;
 }
