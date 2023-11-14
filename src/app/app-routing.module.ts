@@ -7,9 +7,10 @@ import { AdminComponent } from './admin/admin/admin.component';
 import { ForgotPasswordComponent } from './auth/forgot-password/forgot-password.component';
 import { ChangePasswordComponent } from './auth/change-password/change-password.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { ChatBoxComponent } from './chat/chat-box/chat-box.component';
+import { AuthPanelComponent } from './common/auth-panel/auth-panel.component';
 import { MessageComponent } from './chat/message/message.component';
 import { ContactComponent } from './chat/contact/contact.component';
-import { ChatBoxComponent } from './chat/chat-box/chat-box.component';
 
 const routes: Routes = [
     {path: "auth/login", component: LoginComponent},
@@ -20,7 +21,7 @@ const routes: Routes = [
         path: "chat",
         component: ChatComponent,
         children: [
-            { path: "contact/:id", component: ChatBoxComponent},
+            { path: "contact/:id", component: ChatBoxComponent}
         ]
     },
     {path: "admin", component: AdminComponent},
@@ -39,5 +40,9 @@ export const RoutingComponents = [
     ChatComponent,
     ForgotPasswordComponent,
     ChangePasswordComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    AuthPanelComponent,
+    MessageComponent,
+    ContactComponent,
+    ChatBoxComponent
 ]

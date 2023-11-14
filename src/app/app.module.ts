@@ -14,10 +14,6 @@ import { ChatBoxComponent } from './chat/chat-box/chat-box.component';
   declarations: [
     AppComponent,
     RoutingComponents,
-    AuthPanelComponent,
-    MessageComponent,
-    ContactComponent,
-    ChatBoxComponent
   ],
   imports: [
     BrowserModule,

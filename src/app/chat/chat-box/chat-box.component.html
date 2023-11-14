@@ -110,53 +110,67 @@
         </div>
     </div>
     <div class="message-media">
-        <div class="media">
-            <h5>MEDIA</h5>
-            <mat-divider/>
-            <div class="photos">
-                <ul>
-                    <li>
-                        <img src="../../../assets/tony.jpg">
-                    </li>
-                    <li>
-                        <img src="../../../assets/tony.jpg">
-                    </li>
-                    <li>
-                        <img src="../../../assets/tony.jpg">
-                    </li>
-                    <li>
-                        <img src="../../../assets/tony.jpg">
-                    </li>
-                    <li>
-                        <img src="../../../assets/tony.jpg">
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="attachments">
-            <h5>FILES</h5>
-            <mat-divider/>
-            <br>
-            <div class="files">
-                <div class="file">
-                    <div class="file-name"><h5><a href="#">File1.txt</a></h5></div>
-                    <div>
-                        <mat-icon aria-hidden="false" fontIcon="download"></mat-icon>
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Media
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <div class="media">
+                    <div class="photos">
+                        <ul>
+                            <li>
+                                <img src="../../../assets/tony.jpg">
+                            </li>
+                            <li>
+                                <img src="../../../assets/tony.jpg">
+                            </li>
+                            <li>
+                                <img src="../../../assets/tony.jpg">
+                            </li>
+                            <li>
+                                <img src="../../../assets/tony.jpg">
+                            </li>
+                            <li>
+                                <img src="../../../assets/tony.jpg">
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="file">
-                    <div class="file-name"><h5><a href="#">File1.txt</a></h5></div>
-                    <div>
-                        <mat-icon aria-hidden="false" fontIcon="download"></mat-icon>
+            </mat-expansion-panel>
+        </mat-accordion>
+        <br>
+        <mat-accordion>
+            <mat-expansion-panel>
+                <mat-expansion-panel-header>
+                    <mat-panel-title>
+                        Attachments
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <div class="attachments">
+                <div class="files">
+                        <div class="file">
+                            <div class="file-name"><h5><a href="#">File1.txt</a></h5></div>
+                            <div>
+                                <mat-icon aria-hidden="false" fontIcon="download"></mat-icon>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <div class="file-name"><h5><a href="#">File1.txt</a></h5></div>
+                            <div>
+                                <mat-icon aria-hidden="false" fontIcon="download"></mat-icon>
+                            </div>
+                        </div>
+                        <div class="file">
+                            <div class="file-name"><h5><a href="#">File1.txt</a></h5></div>
+                            <div>
+                                <mat-icon aria-hidden="false" fontIcon="download"></mat-icon>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="file">
-                    <div class="file-name"><h5><a href="#">File1.txt</a></h5></div>
-                    <div>
-                        <mat-icon aria-hidden="false" fontIcon="download"></mat-icon>
-                    </div>
-                </div>
-            </div>
-        </div>
+            </mat-expansion-panel>
+        </mat-accordion>
     </div>
 </div>

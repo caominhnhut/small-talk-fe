@@ -149,8 +149,9 @@
 }
 
 .chat-box .message-media .media .photos img{
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
 }
 
 .chat-box .message-media .media .photos ul {
@@ -163,23 +164,14 @@
     margin-left: 3px;
 }
 
-.chat-box .message-media .attachments {
-    height: 45%;
-}
-
-.chat-box .message-media .attachments .files{
-    height: 100%;
-}
-
 .chat-box .message-media .attachments .files .file {
     height: 20px;
-    width: 90%;
     background-color: #CCCCCC;
     padding: 5px;
     border-radius: 5px;
-    margin: auto;
     margin-bottom: 3px;
     display: flex;
+    padding-top: 7px;
 }
 
 .files .file .file-name{
